@@ -1,14 +1,16 @@
 //#include <stdio.h>
+//#include <stdlib.h>
 //#define SIZE 10
-//
+//#define XMAX 110
+//#define XMIN 1
 //int main() {
 //
 //	int arr[SIZE], newarr[SIZE], i, j;
 //	j = 0;
 //
-//	printf("Enter a arr ( 10 elements ): \n");
-//	for (int i = 0; i < SIZE; i++) {
-//		scanf("%d", &arr[i]);
+//	for (i = 0; i < SIZE; i++) {
+//		arr[i] = XMIN + 1 * (XMAX - XMIN) * rand() / RAND_MAX;
+//		printf("\na[%d] = %d\n", i + 1, arr[i]);
 //	}
 //
 //	printf("The entered array:\n ");
